@@ -45,7 +45,7 @@ const App = props => {
         <div className={classes.root}>
           <Router>
             <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route path="//*" element={<Dashboard />} />
             </Routes>
           </Router>
         </div>
